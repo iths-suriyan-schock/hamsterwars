@@ -93,8 +93,8 @@ http://localhost:3000/assets/hamster-1.jpg
 
 |Resurs|Metod|Förväntat svar|
 ---|---|---
-|**/games**|GET|Returnerar en array med samtliga ```matchobject``` som hållits.
-|**/games**|POST|Sparar en match med formatet ```{ timeStamp: Date, contestants: [{ hamsterobject }, { hamsterobject } ] }```.
+|**/games**|GET|Returnerar en array med samtliga ```gameobject``` som hållits.
+|**/games**|POST|Sparar en match enlighet med ```gameobject```.
 
 ```javascript
 [ { gameobject } ]
