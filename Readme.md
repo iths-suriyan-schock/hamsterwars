@@ -114,7 +114,7 @@ http://localhost:3000/assets/hamster-1.jpg
 
 ## Datamodeller
 
-### hamster object
+### hamster
 
 ```javascript
 
@@ -124,7 +124,6 @@ http://localhost:3000/assets/hamster-1.jpg
     imgName: String,    
     favFood: String,
     loves: String,
-    imgName: String,
     wins: Number,
     defeats: Number,
     games: Number
@@ -132,7 +131,7 @@ http://localhost:3000/assets/hamster-1.jpg
 
 ```
 
-### game object
+### game
 
 ```javascript
 {
@@ -147,7 +146,7 @@ http://localhost:3000/assets/hamster-1.jpg
 
 ```
 
-### stats object
+### stats
 
 ```javascript
 {
