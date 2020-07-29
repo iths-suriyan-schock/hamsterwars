@@ -7,8 +7,6 @@ let router = new Router();
 router.get('/', async (req, res) => {    
     
     try {
-// Create funtions to create snapShots of DB collections of hamsters (use snapShots.forEach() and then hamsters.push()
-// Create an empty array for hamsters first, a placeholder for us to use to push in the new data as doc.
         let games = []
         let snapShots = await db.collection('games').get()
         
