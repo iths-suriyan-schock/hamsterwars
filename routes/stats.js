@@ -19,7 +19,7 @@ router.get('/total', async (req, res) => {
 router.get('/averageAge', async (req, res) => {
     
     try {
-// Create functions to show the middle age of all hamsters
+// Create functions to show the average age of all hamsters
         let hamsters = await db.collection('hamsters').get();
         let hamsterArr = [];
 
