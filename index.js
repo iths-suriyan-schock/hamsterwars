@@ -9,7 +9,6 @@ const chartsRoute = require('./routes/charts')
 const gamesRoute = require('./routes/games')
 const statsRoute = require('./routes/stats')
 
-//app.use = Bind app-lvl middleware to an instance of the app object
 app.use(express.json());
 app.use('/assets', express.static("assets"))
 app.use(express.static('public'))
